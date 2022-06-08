@@ -1,0 +1,41 @@
+.container .sifre-degis{
+    padding: 20px;
+} 
+.container .sifre-degis{
+    padding: 20px;
+} 
+.container .sifre-degis form ul li{
+   margin-top: 13px; 
+   display: flex;
+   justify-content: flex-start;
+}
+.container .sifre-degis form ul li label{
+     width: 150px;
+ }
+ .container .sifre-degis form ul li input{
+     width: 250px;
+     padding: 6px 40px 7px  8px;
+     border: 1px solid;
+     border-radius: 3px;
+ }
+ 
+ .container .sifre-degis .degistir{
+     margin-top: 20px;
+    width: 140px;
+    height: 30px;
+    border: 1px solid;
+    background: #2691d9;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+  }
+  .container .sifre-degis .degistir:hover{
+    border-color: #2691d9;
+    transition: .5s;
+  }
+  /*ilanlarim */
+  
+ 

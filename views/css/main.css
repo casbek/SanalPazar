@@ -1,0 +1,219 @@
+
+
+  /*nav baslangic*/
+ 
+/* nav bitisss*/
+.container_grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    padding: 20px;
+}
+/* aside baslangic*/
+.aside{
+ padding: 20px;
+ display: flex;
+ flex-direction: column;
+ 
+}
+.aside div{
+    margin-bottom: 40px;
+}
+.aside hr{
+   width: 85%; 
+   border: 1px solid #E9E8F0;
+}
+.aside_paragraf{
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+.aside div ul{
+    padding-top: 20px;
+    padding-left: 35px;
+}
+.aside div li{
+    margin-bottom: 10px;
+}
+.aside .uretim_yer select{
+    margin-top: 20px;
+    width: 250px;
+    height: 35px;
+    border: 1px solid #E9E8F0;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+/* aside bitis*/
+
+/*section baslangic*/
+.section{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 20px;
+
+}
+.section .box{
+ height: 400px;
+ background-color: white;
+}
+.section .box .fa-xmark{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: red;
+ 
+    
+   }
+.section .box .a_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+.section .box .imgcontainer {
+     
+     overflow: hidden;
+     margin-bottom: 10px;
+ }
+ 
+ 
+
+ .section .box .imgcontainer img{
+     width: 80%;
+     height: 50%;
+}
+.section .box  .a_container .isim_yazi{
+    color:#249FFF ;
+}
+
+.space{
+    width: 100%;
+    height: 20px;
+}
+.section .box div{
+display: flex;
+justify-content: space-around;
+}
+.section .box .a_container .bilgi a{
+    height: 35px;
+    width: 120px;
+    border: 1px solid #cfcdd6;
+    border-radius: 20px;
+    padding: 10px;
+     
+}
+.section .box .a_container .duzenle a{
+    height: 35px;
+    width: 120px;
+    border: 0.1px solid #cfcdd6;
+    border-radius: 20px;
+    padding: 10px;
+}
+.section .box .a_container .duzenle a i{
+    margin-right: 5px;
+}
+
+/* ilan ver css*/
+.ilan-ver-container{
+  position: relative;
+  width: 875px;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 20px;
+}
+.ilan-ver-container form{
+   
+  width:100%;
+     
+  }
+.ilan-ver-container .ilan-ver-item{
+    width: 100%;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.ilan-ver-container .ilan-ver-item h1{
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+    
+}
+.ilan-ver-container .ilan-item-content{
+background:#F7F7F7 ;
+padding: 20px 20px;
+}
+.ilan-ver-container .ilan-item-content #baslik{
+    margin-top: 20px;
+    width: 50%;
+    height: 35px;
+    border: 2px solid #E9E8F0;
+    border-radius: 8px;
+    font-size: 1rem;
+    font: inherit;
+   }
+
+.ilan-ver-container .ilan-ver-item .foto-diza{ 
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+ }
+
+.ilan-ver-container .ilan-item-content select{ /* global yap*/
+    margin-top: 20px;
+    width: 250px;
+    height: 35px;
+    border: 2px solid #E9E8F0;
+    border-radius: 8px;
+    font-size: 1rem;
+    font: inherit;
+}
+.ilan-ver-container #ilan-upload{
+        width: 50%;
+        height: 50px;
+        border: 1px solid;
+        background: #2691d9;
+        border-radius: 25px;
+        font-size: 18px;
+        color: #e9f4fb;
+        font-weight: 700;
+        cursor: pointer;
+        outline: none;
+}
+.ilan-ver-container #ilan-upload:hover {
+    border-color: #2691d9;
+    transition: .5s;
+
+}
+
+.ilan-ver-container .ilan-ver-item .foto-diza{ 
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+}
+.ilan-ver-container .ilan-item-content .ilan-foto-box{
+    transition: all .45s linear;
+    position: relative;
+    background: #fff;
+    border: 1px solid #dedede;
+    width: 128px;
+    height: 96px;
+    border-radius: 4px;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.ilan-ver-container .ilan-item-content .ilan-foto-box i:hover{ 
+   display: none;
+}
+
+
+  
+  
